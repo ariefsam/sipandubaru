@@ -9,17 +9,7 @@ $bayi = get_relasi1($id);
 $petugas = get_relasi2($id);
 ?>
 <div id="inner">
-    <div id="sidebar">
-        <div id="kotak">
-            <a href="berita_acara.php">Tambah Berita Acara</a><br />
-            <a href="lihat_berita_acara.php">Lihat Berita Acara</a>
-        </div>
-        <div id="kotak"><h2>Informasi Penting</h2>
-            <p>Pelayan Kesehatan yang harus diberikan bulan ini:</p>
-               Imunisasi Polio<br />
-               Vitamin A
-         </div>
-    </div>
+<?php include 'sidebar_administrasi.php'?>
          <div id="content">
         <div id="content-top">
             <h1>Pilih Berita Acara</h1>
@@ -50,5 +40,6 @@ $petugas = get_relasi2($id);
                     <tr><td><a href="daftar_acara.php"><< Kembali</a></td><td>&nbsp;</td></tr>
                 </table>
         </div>
+</div>
 </div>
     <?php include 'footer.php'?>

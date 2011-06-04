@@ -11,7 +11,7 @@ if ($_POST['tes']) {
     $brt = $_POST['berat'];
     $umur = $_POST['umur'];
     edit_berat_tinggi($id_data, to_date($tgl), $brt, $umur);
-    header("Location: input_data.php?id=$id");
+    header("Location: input_berat.php?id=$id");
 }
 require 'header.php';
 $i = tanggalan();
@@ -95,10 +95,4 @@ $i = tanggalan();
                         </table>
                     </div>
                 </div>
-
-             </div>
-            <div id="footer"><p>Copyright (c) 2011 sipandu.com. All rights reserved.<br />
-                    Design by <a href="index.php"> SiPandu Development Team</a>.</p></div>
-        </div>
-    </body>
-</html>
+<?php include 'footer.php'?>

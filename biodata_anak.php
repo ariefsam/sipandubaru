@@ -11,7 +11,7 @@ $i = tanggalan();
 <div id="content">
       <div id="content-top">
            
-          <h1>Biodata Anak <span><span style="text-align: 'right'";><a href="biodata_anak.php?id=<?php echo $id; ?>"> <?php echo $bayi['nama'] ?></a></span></h1>
+          <h1>Biodata Anak <div id="nama_anak";><a href="biodata_anak.php?id=<?php echo $id; ?>"> <?php echo $bayi['nama'] ?></a></div></h1>
           <a href="edit_biodata.php?id=<?php echo $id; ?>">Edit biodata </a>    <!-- // ini tambahin fungsinya rip. bikin aja di file edit_biodata.php -->
           <fieldset>
                         <legend><strong>Data Diri Anak</strong></legend>
@@ -48,5 +48,6 @@ $i = tanggalan();
                         </table>
                     </fieldset>
       </div>
+</div>
 </div>
 <?php require 'footer.php';?>
