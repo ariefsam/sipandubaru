@@ -311,11 +311,11 @@ ul{border:0; margin:0; padding:0;}
 }
 /*meis*/
 #grafik_kecil {
-	float:left;
-    width: 310px;
+    float:left;
+    width: 330px;
 	height: 310px;
     padding: 10px;
-    margin: 15px;
+    margin: 3px;
     background-color: #ffffff;
     border:1px solid #f1c866;
 	display: inline-block;
