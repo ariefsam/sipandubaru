@@ -9,11 +9,11 @@
                                     <li><a href="input_berat.php?id=<?php echo $id; ?>">Berat</a></li>
                                     <li><a href="input_vitamin.php?id=<?php echo $id; ?>">Vitamin</a></li>
                                     <li><a href="input_imunisasi.php?id=<?php echo $id; ?>">Imunisasi</a></li>
-                                    <li><a href="#">ASI dan Riwayat Kesehatan</a></li>
+                                    <li><a href="input_asi_riwayat.php">ASI dan Riwayat Kesehatan</a></li>
                                 </ol>
 
                                 <li><a href="grafik.php?id=<?php echo $id; ?>" >Grafik Perkembangan</a></li>
-                                <li><a href="#" >Capaian Perkembangan</a></li>
+                                <li><a href="capaian.php" >Capaian Perkembangan</a></li>
                             </ul>
               </div>
         <div id="kotak">

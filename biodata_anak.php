@@ -12,7 +12,7 @@ $i = tanggalan();
       <div id="content-top">
            
           <h1>Biodata Anak <span><span style="text-align: 'right'";><a href="biodata_anak.php?id=<?php echo $id; ?>"> <?php echo $bayi['nama'] ?></a></span></h1>
-          <a href="#">Edit biodata </a>    <!-- // ini tambahin fungsinya rip. bikin aja di file edit_biodata.php -->
+          <a href="edit_biodata.php?id=<?php echo $id; ?>">Edit biodata </a>    <!-- // ini tambahin fungsinya rip. bikin aja di file edit_biodata.php -->
           <fieldset>
                         <legend><strong>Data Diri Anak</strong></legend>
                         <table border="0">
