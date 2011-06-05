@@ -1,0 +1,4 @@
+untuk login,
+pastikan di menu petugas ada username dan
+passwordnya ini aja 81dc9bdb52d04dc20036dbd8313ed055
+yang artinya "1234".
