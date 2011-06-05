@@ -3,6 +3,7 @@ require "loginkah.php";
 require 'dbcon.php';
 require 'fungsi.php';
 require './header.php';
+$x=15;
 include("FusionCharts.php");
 include 'gr_status_gizi.php';
 include 'gr_kehadiran.php';

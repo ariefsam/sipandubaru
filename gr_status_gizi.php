@@ -9,7 +9,7 @@
    $arrData[2][2] = 10;
    $arrData[3][2] = 23;
 
-   $strXML = "<chart yAxisMinValue='0' yAxisMaxValue='30' adjustDiv='0' numDivLines='0' bgSWF='ffffff' canvasBgAlpha='100' canvasBorderColor='ffffff' canvasBorderThickness='3'>";
+   $strXML = "<chart yAxisMinValue='0' yAxisMaxValue='30' baseFontSize='15' adjustDiv='0' numDivLines='0' bgSWF='ffffff' canvasBgAlpha='100' canvasBorderColor='ffffff' canvasBorderThickness='3'>";
    //Convert data to XML and append
    foreach ($arrData as $arSubData)
       $strXML .= "<set label='" . $arSubData[1] . "' value='" . $arSubData[2] . "' />";

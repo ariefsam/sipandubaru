@@ -33,16 +33,15 @@ $i = tanggalan();
 			</form>
                     </div>
 
-                    <table border="1" width="90%">
+                    <table border="1" bordercolor="#FF9900" width="100%">
                         <tr class="head">
-                            <th align="center">No.</th>
-                            <th width="95">Nama</th>
-                            <th width="60">Umur</th>
-                            <th width="50">Berat Badan</th>
-                            <th width="50">Tinggi Badan</th>
+                            <th width="35">No.</th>
+                            <th width="150">Nama</th>
+                            <th width="70">Umur</th>
+                            <th width="100">Berat Badan</th>
                             <th width="80">Nama Ayah</th>
-                            <th width="95">Nama Ibu</th>
-                            <th width="300">Alamat</th>
+                            <th width="80">Nama Ibu</th>
+                            <th width="270">Alamat</th>
                         </tr>
                     <?php
 
@@ -51,7 +50,7 @@ $i = tanggalan();
                         $kueri_page = $kueri_page[num];
 
                         $targetpage = "pelayanan.php";
-                        $limit = 5;
+                        $limit = 2;
                         $page = $_GET['page'];
                         if($page) $start = ($page - 1)*limit;
                         else $start = 0;
@@ -114,17 +113,16 @@ $i = tanggalan();
                    ?>
                    <tr class="ganjil">
                             <td align="center"><?php echo $i++; ?></td>
-                            <td><div align="left"><a href="<?php echo "biodata_anak.php?id=$q[id]" ?>"><?php echo $q['nama']; ?></a></div></td>
-                            <td><?php include "umur.php" ?></td>
-                            <td><?php echo $q['berat']; ?></td>
-                            <td><?php echo $q['panjang']; ?></td>
+                            <td align="left"><a href="<?php echo "biodata_anak.php?id=$q[id]" ?>"><?php echo $q['nama']; ?></a></td>
+                            <td align="center"><?php include "umur.php" ?></td>
+                            <td align="center"><?php echo $q['berat']; ?> kg</td>
                             <td><?php echo $q['nama_ayah']; ?></td>
                             <td><?php echo $q['nama_ibu']; ?></td>
                             <td>Jalan <?php echo $q['jalan'] . " RT " . $q['rt'] . " RW " . $q['rw'] . " Desa " . $q['desa'] ?></td>
                     </tr>
                     <?php } ?>
                    </table>
-                    <?=$pagination?>
+                    <?php $pagination?>
                 </div>
                 
             </div>

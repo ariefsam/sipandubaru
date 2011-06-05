@@ -3,7 +3,6 @@ session_start();
 require 'dbcon.php';
 require 'fungsi.php';
 require './header.php';
-
 if ($_POST['submit']) {
     $username = $_POST['username'];
     $password = md5($_POST['password']);
@@ -12,7 +11,7 @@ if ($_POST['submit']) {
     //print_r($z);
     if (mysql_num_rows($q) > 0) {
         $_SESSION['petugas'] = $z;
-        header("Location: index.php");
+        header("Location:index.php");
     }
     else
         $error = "Kombinasi username dan password salah";

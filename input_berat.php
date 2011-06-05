@@ -96,4 +96,5 @@ $i = tanggalan();
                         </table>
                     </div>
                 </div>
+</div>
 <?php include 'footer.php'?>

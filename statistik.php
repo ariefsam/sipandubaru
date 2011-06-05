@@ -2,11 +2,12 @@
 require "loginkah.php";
 require 'dbcon.php';
 require 'fungsi.php';
+require './header.php';
 $i = tanggalan();
+$x = 10;
 include("FusionCharts.php");
 include 'gr_status_gizi.php';
 include 'gr_kehadiran.php';
-require './header.php';
 include 'gr_jk.php';
 ?>
 <div id="inner">
