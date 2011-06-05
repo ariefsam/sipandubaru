@@ -1,4 +1,5 @@
 <?php
+require "loginkah.php";
 require 'dbcon.php';
 if(!$_POST['namaAnak']) die();
 $nama_anak       = $_POST['namaAnak'];

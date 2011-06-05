@@ -1,4 +1,6 @@
-<?php require './header.php';
+<?php
+require "loginkah.php";
+require './header.php';
 require 'fungsi.php';
 $i = tanggalan();
 ?>

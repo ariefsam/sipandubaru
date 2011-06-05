@@ -9,10 +9,10 @@
 <body>
 <div id="wrapper">
 		<div id="header">
-                    <div id="login">Babakan Tengah  | <a href="logout.php"> Keluar</a></div>
+                    <div id="login">Babakan Tengah  | <a href="login.php?action=logout"> Keluar</a></div>
                     <div id="logo"></div>
                     <div id="menu">
-                        <span id="tgl">icha<?php $i ?></span>
+                        <span id="tgl"><?php echo $_SESSION['petugas']['nama_petugas'] ?></span>
                         <a href="index.php">Beranda</a> |
                         <a href="pelayanan.php">Pelayanan</a> |
                         <a href="statistik.php">Data Statistik</a> |
