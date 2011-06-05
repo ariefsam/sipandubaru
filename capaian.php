@@ -1,4 +1,5 @@
 <?php
+require "loginkah.php";
 require "dbcon.php";
 require './header.php';
 require 'fungsi.php';
