@@ -315,12 +315,15 @@ ul{border:0; margin:0; padding:0;}
     width: 330px;
     height: 310px;
     padding: 10px 0 0 0;
-    margin: 3px;
+    margin: 10px 3px 10px 5px;
     background-color: #ffffff;
     border:1px solid #f1c866;
-	display: inline-block;
+    display: inline-block;
+    text-align: center;
 }
-
+#grafik_kecil a:hover{
+    text-decoration: underline;
+}
 h3{
 font-size:80%;
 font-weight:normal;

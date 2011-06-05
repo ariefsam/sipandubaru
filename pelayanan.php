@@ -49,7 +49,7 @@ $i = tanggalan();
                         $kueri_page = $kueri_page[num];
 
                         $targetpage = "pelayanan.php";
-                        $limit = 2;
+                        $limit = 5;
                         $page = $_GET['page'];
                         if($page) $start = ($page - 1)*limit;
                         else $start = 0;
