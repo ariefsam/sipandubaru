@@ -2,55 +2,61 @@
 session_start();
 require 'dbcon.php';
 require 'fungsi.php';
-require './header.php';
-if ($_POST['submit']) {
+if ($_POST['username']) {
     $username = $_POST['username'];
     $password = md5($_POST['password']);
     $q = mysql_query("SELECT * FROM petugas WHERE username='$username' AND password='$password'");
     $z = mysql_fetch_array($q);
     //print_r($z);
     if (mysql_num_rows($q) > 0) {
-        $_SESSION['petugas'] = $z;
+        $_SESSION['petugas'] = $z[0];
         header("Location:index.php");
     }
     else
         $error = "Kombinasi username dan password salah";
 }
-else if ($_GET['action'] == "logout") {
+if ($_GET['action'] == "logout") {
     session_destroy();
     $error = "Anda telah berhasil logout";
 }
-$i = tanggalan();
 ?>
-<div id="inner">
-    <div id="sidebar">
-        <div id="kotak"><h2>Selamat Datang</h2>
-            <p>Sistem ini akan membantu anda melakukan pendataan pelayanan pada Posyandu.</p>
-            <p>Untuk mengisi berita acara, silahkan masuk ke menu <a href="administrasi.php">ADMINISTRASI POSYANDU</a></p>
-            <p>Untuk mendaftarkan anak yang belum terdaftar, masuk ke menu<a href="daftar.php">DAFTARKAN ANAK</a></p>
-        </div>
-        <div id="kotak"><h2>Informasi Penting</h2>
-            <p>Pelayan Kesehatan yang harus diberikan bulan ini:</p>
-            <ul><li>Imunisasi Polio</li>
-                <li>Vitamin A</li>
-            </ul>
-        </div>
-    </div>
-    <div id="content">
-        <div id="content-top">
-            <h1>Login</h1>
-            <div>
-                <form action="" method="post">
-                    <table>
-<?php echo $error ?>
-                        <tr><td>Username </td><td> <input type="text" name="username" /></td></tr>
-                        <tr><td>Password </td><td> <input type="password" name="password" /></td></tr>
-                        <tr><td></td><td style="text-align: right"><input type="submit" name="submit" value="Login" /></td></tr>
-                    </table>
-                </form>
-            </div>
-        </div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8;charset=utf-8" />
+<title>Dreamland - Login</title>
+<link href="Dreamland%20-%20Login_files/styles00.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+img, div, h1, ul, input, select, textarea, span, a { behavior: url(http://demo.templateworld.com/admin-templates/admin-02/iepngfix.htc) }
+</style>
+<script type="text/javascript" src="Dreamland%20-%20Login_files/iepngfix.js"></script>
+</head>
 
-    </div>
+<body>
+<div id="loginWrap">
+ <div id="loginPanel">
+
+  <div class="logo"></div>
+  <div id="adminLogin">
+      <form method="post">
+   <h2>Admin Login</h2>
+   <input type="text" value="username" name="username" onclick="this.value=''" />
+    <div class="blank"></div>
+   <input type="password" value="password" name="password" onclick="this.value=''" />
+   <div class="blank"></div>
+   <input class="link" type="submit" name="submit" value="" />
+
+   <a href="http://demo.templateworld.com/admin-templates/admin-02/adminpage.html"></a>
+   <p><a href="">Lupa Password</a></p>
+      </form>
+  </div>
+ </div>
+ <div id="loginFoot">
+  <p>&copy; Kompugel Corporatio. Designed by : <a href="http://www.templateworld.com/">Template World</a></p>
+ </div>
+
 </div>
-<?php require 'footer.php'; ?>
+</body>
+</html>
+
+<!-- This document saved from http://demo.templateworld.com/admin-templates/admin-02/ -->

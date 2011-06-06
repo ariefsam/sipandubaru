@@ -27,13 +27,13 @@ $i = tanggalan();
                     <div id="search">
 			<form method="post" action="cari_anak.php">
 				<fieldset>
-					<input type="text" name="anak" id="cari_form" size="15" value="Ketikkan Nama Anak..." onfocus="this.value=''"/>
+					<input type="text" name="anak" style="height: 20px;" id="cari_form" size="30" value="Ketikkan Nama Anak..." onfocus="this.value=''"/>
 					<input type="submit" id="cari_submit" value="Cari" />
 				</fieldset>
 			</form>
                     </div>
 
-                    <table border="1" bordercolor="#FF9900" width="100%">
+                    <table border="0" bordercolor="#FF9900" width="100%">
                         <tr class="head">
                             <th width="35">No.</th>
                             <th width="150">Nama</th>

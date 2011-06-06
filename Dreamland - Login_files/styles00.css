@@ -1,0 +1,202 @@
+body{margin:0px; padding:0px; background:#333333}
+a:focus, a:active{outline:0}
+/*************************************************************************************************************************************
+LOGIN PAGE
+**************************************************************************************************************************************/
+#loginWrap{width:636px; margin:0 auto; padding:0px}
+#loginPanel{width:636px; height:337px; margin:102px 0 0 0; padding:0px; float:left; background:url(loginBg0.png) no-repeat}
+#loginPanel .logo{width:217px; height:70px; margin:152px 0 0 0; padding:0 0 0 363px; float:left; background:url(logoSiPANDU.gif) no-repeat right top}
+#adminLogin{width:520px; margin:10px 0 0 0; padding:0 0 0 58px; float:left}
+#adminLogin h2{width:520px; height:11px; margin:0px; padding:0px; float:left; text-indent:-9999px; background:url(adminlog.png) no-repeat 3px 0}
+#adminLogin input{width:196px; height:23px; margin:11px 0 0 0; padding:5px 7px 0 7px; float:left; font-family:Arial; font-size:12px; color:#333333; line-height:16px; border:0px; background:url(inputbg0.png) no-repeat}
+#adminLogin .blank{width:11px; height:11px; margin:11px 0 0 0; padding:0px; float:left}
+#adminLogin .link{width:77px; height:27px; margin:11px 0 0 0; padding:0px; float:left; background:url(masuk.gif) no-repeat}
+#adminLogin p{width:175px; margin:15px 0 0 0; padding:0px; float:left; font-family:Arial; font-size:10px; color:#FFFFFF; line-height:14px}
+#adminLogin p a{color:#FFFFFF; text-decoration:none}
+#adminLogin p a:hover{text-decoration:underline}
+#adminLogin p span{padding:0 9px 0 9px}
+#loginFoot{width:230px; margin:0px; padding:0 0 0 18px; float:left}
+#loginFoot p{font-family:Arial; font-size:10px; color:#999999; line-height:14px; font-style:italic}
+#loginFoot p a{color:#999999; text-decoration:none}
+/*************************************************************************************************************************************
+ADMIN PAGE
+**************************************************************************************************************************************/
+/*-----------Head--------------*/
+#headwrap{width:100%; height:179px; margin:0px; padding:0px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/headbg.jpg) repeat-x}
+#headPanel{width:955px; height:179px; margin:0 auto; padding:0px}
+#headPanel .topWrap{width:995px; margin:0px; padding:0px; float:left}
+#headPanel .logo{width:116px; height:25px; margin:78px 0 0 0; padding:0px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/innerlogo.jpg) no-repeat}
+#headPanel .top{width:839px; margin:6px 0 0 0; padding:0px; float:left; font-family:Tahoma; font-size:10px; color:#998675; line-height:14px; text-align:right}
+#headPanel .top a{color:#998675; text-decoration:none}
+#headPanel .bottom{width:368px; margin:15px 0 0 0; padding:0px; float:left; font-family:Tahoma; font-size:10px; color:#998675; line-height:14px}
+#headPanel .bottom a{color:#998675; text-decoration:none}
+#headPanel .bottom span{color:#fbb03b; font-weight:bold}
+/*-----------body--------------*/
+#bodyWrap{width:100%; margin:0px; padding:0px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/bodybgTop.jpg) repeat-x}
+#bodyWrap2{width:100%; margin:0px; padding:0px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/bodybgbottom.jpg) repeat-x left bottom}
+#bodyContent{width:951px; margin:0 auto; padding:14px 0 0 0}
+#content{width:951px; margin:0px; padding:0px; float:left}
+#content .top{width:951px; height:10px; margin:0px; padding:0px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/contentTop.jpg) no-repeat}
+#content .bottom{width:951px; height:10px; margin:0px; padding:0px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/contentBottom.jpg) no-repeat}
+#content .filler{width:927px; margin:0px; padding:11px 0 0 24px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/filler.jpg) repeat-y}
+#leftPanel{width:615px; margin:0px; padding:0px; float:left}
+#leftTop{width:563px; margin:0px; padding:25px 0 20px 30px; float:left; border:#dad6d1 solid 1px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/panelBg.jpg) repeat-x}
+#leftTop ul{width:537px; margin:0px; padding:0px; float:left; display:block}
+#leftTop ul li{width:auto; margin:0px; padding:0px; float:left; display:block}
+#leftTop ul li .space{width:auto; margin:0px; padding:0 12px 0 12px; float:left; font-family:Arial; font-size:11px; color:#333333; line-height:15px;}
+#leftTop ul li a, #leftTop ul li a.active{width:auto; margin:0px; padding:0px; float:left; font-family:Arial; font-size:11px; color:#333333; line-height:15px; text-decoration:none; text-transform:uppercase}
+#leftTop ul li a:hover, #leftTop ul li a.active{color:#683a1e}
+#leftTop h2{width:526px; margin:22px 0 0 0; padding:0 0 4px 0; float:left; font-family:Arial; font-size:22px; color:#998675; line-height:26px; border-bottom:#f0ebe7 solid 1px}
+#leftTop p{width:535px; margin:17px 0 0 0; padding:0px; float:left; font-family:Tahoma; font-size:11px; color:#998675; line-height:15px}
+#leftTop .table{width:530px; margin:16px 0 0 0; padding:0 0 9px 17px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/tableBg.jpg) repeat-y right top}
+#leftTop .table .title{width:173px; margin:11px 0 0 0; padding:0px; float:left; font-family:Tahoma; font-size:10px; color:#998675; line-height:14px}
+#leftTop .table .points{width:85px; margin:11px 0 0 0; padding:0px; float:left; font-family:Tahoma; font-size:10px; color:#998675; line-height:14px; text-align:center}
+#leftTop .table .title a{width:auto; margin:10px 0 0 0; padding:0px; float:left; font-family:Tahoma; font-size:11px; color:#534741; line-height:15px; text-decoration:none}
+#leftBottom{width:527px; margin:20px 0 0 0; padding:25px 36px 20px 30px; float:left; border:#dad6d1 solid 1px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/panelBg.jpg) repeat-x}
+#leftBottom h2{width:526px; margin:0px; padding:0 0 4px 0; float:left; font-family:Arial; font-size:22px; color:#998675; line-height:26px;}
+/*-------Tabs---------*/
+.tab{width:500px; margin:0px; padding:0px; float:left}
+.tab .small{width:191px; margin:0px; padding:0px; float:left}
+.tab .heading{width:191px; margin:0px; padding:0px; float:left; font-family:Tahoma; font-size:10px; color:#998675; line-height:14px; font-weight:normal}
+.tab .small input{width:160px; height:24px; margin:2px 0 0 0; padding:7px 4px 0 5px; float:left; border:0px; font-family:Tahoma; font-size:12px; color:#998675; line-height:16px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/tabinputSmall.jpg) no-repeat}
+.tab .combo{width:190px; margin:17px 0 0 0; padding:0px; float:left}
+.tab .combo select{width:153px; height:31px; margin:0px; padding:0px; float:left}
+.tab .medium{width:270px; margin:14px 0 0 0; padding:0px; float:left}
+.tab .medium input{width:240px; height:24px; margin:2px 0 0 0; padding:7px 4px 0 5px; float:left; border:0px; font-family:Tahoma; font-size:12px; color:#998675; line-height:16px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/medium.jpg) no-repeat}
+.tab .medium .star{width:11px; height:11px; margin:0px; padding:0 0 0 5px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/star.jpg) no-repeat right top}
+.tab .large{width:486px; margin:14px 0 0 0; padding:0px; float:left}
+.tab .large input{width:477px; height:24px; margin:2px 0 0 0; padding:7px 4px 0 5px; float:left; border:0px; font-family:Tahoma; font-size:12px; color:#998675; line-height:16px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/largeinput.jpg) no-repeat}
+.tab .textarea{width:486px; margin:14px 0 0 0; padding:0px; float:left}
+.tab .textarea textarea{width:477px; height:83px; margin:2px 0 0 0; padding:7px 4px 0 5px; float:left; border:0px; font-family:Tahoma; font-size:12px; color:#998675; line-height:16px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/textarea.jpg) no-repeat}
+.tab .button{width:109px; height:23px; margin:16px 0 0 0; padding:7px 0 0 0; float:left; font-family:"Trebuchet MS"; font-size:11px; color:#534741; line-height:15px; font-weight:bold; text-align:center; text-decoration:none; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/button.jpg) no-repeat}
+#rightPanel{width:292px; margin:0px; padding:0px; float:left}
+#rightPanel .panel{width:270px; margin:0px; padding:14px 0 18px 20px; float:left; border:#d6d1c9 solid 1px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/panelBg.jpg) repeat-x}
+#rightPanel .panel .inner{width:222px; margin:0px; padding:22px 0 19px 26px; float:left; border:#e6e3e0 solid 1px; background:#FFFFFF}
+#rightPanel .panel .inner h2{width:222px; margin:0px; padding:0px; float:left; font-family:Arial; font-size:20px; color:#998675; line-height:24px}
+#rightPanel .panel .inner p{width:222px; margin:2px 0 0 0; padding:0px; float:left; font-family:Tahoma; font-size:10px; color:#998675; line-height:14px}
+#rightPanel .panel .inner p.toppadding{float:left; margin:16px 0 0 0; width:222px;}
+#rightPanel .panel .inner p label{ width:222px; height:20px; float:left; margin:0px; padding:0px;}
+#rightPanel .panel .inner p label span{font-family:Tahoma; font-size:10px; color:#998675; line-height:18px; padding:0 0 0 9px}
+#rightPanel .panel .inner .submitbutton{float:left; margin:9px 0 0 0; padding:0px; width:122px;}
+#rightPanel .panel .inner .submitbutton a{ float:left; font-family:"Trebuchet MS"; font-size:10px; font-weight:normal; color: #666666; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/submitactive.gif) no-repeat; width:75px; text-align:center; text-decoration:none; line-height:19px; height:21px;}
+#rightPanel .panel .inner ul{width:195px; margin:27px 0 0 0; padding:0px; float:left; display:block; border-top:#cec8c2 solid 1px}
+#rightPanel .panel .inner ul li{width:195px; height:29px; margin:0px; padding:0px; float:left; display:block; border-bottom:#cec8c2 solid 1px}
+#rightPanel .panel .inner ul li a{width:169px; height:29px; margin:0px; padding:0 0 0 26px; float:left; font-family:Tahoma; font-size:11px; color:#998675; line-height:28px; text-decoration:none}
+#rightPanel .panel .inner ul li a:hover{background:url(http://demo.templateworld.com/admin-templates/admin-02/images/rightlistHover.jpg) repeat-y}
+#rightPanel .blank{width:292px; height:20px; margin:0px; padding:0px; float:left}
+#bottomPanel{width:900px; margin:13px 0 0 0; padding:0 0 20px 0; float:left}
+#bottomPanel #info, #bottomPanel #conf, #bottomPanel #error{width:900px; height:50px; margin:20px 0 0 0; padding:0px; float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/infoBg.jpg) repeat-x}
+#bottomPanel a{width:900px; height:50px; margin:0px; padding:0px; float:left; font-family:Tahoma; font-size:13px; color:#534741; line-height:50px; text-decoration:none}
+#bottomPanel a span.info{width:23px; height:26px; margin:12px 24px 0 0; padding:0 0 0 38px; float:left; text-indent:-9999px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/infoIco.jpg) no-repeat right top}
+#bottomPanel a span.conf{width:23px; height:18px; margin:16px 24px 0 0; padding:0 0 0 38px; float:left; text-indent:-9999px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/conferIco.jpg) no-repeat right top}
+#bottomPanel a span.error{width:23px; height:18px; margin:16px 24px 0 0; padding:0 0 0 38px; float:left; text-indent:-9999px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/errorIco.jpg) no-repeat right top}
+#footer{width:951px; height:94px; margin:0px; padding:0px; float:left}
+#footer p{width:230px; margin:22px 0 0 0; padding:0 0 0 25px; float:left; font-family:Arial; font-size:10px; color:#736357; line-height:14px; font-style:italic}
+#footer p a{color:#736357; text-decoration:none}
+#footer p a:hover{text-decoration: underline}
+/*-------textelements---------*/
+#textelements{float:left; width:500px; margin:0px; padding:0px;}
+#textelementstopcontent{ float:left; width:500px; margin:0px; padding:0px;}
+#textelementstopcontent .headings{ float:left; width:190px; margin:0px; padding:0px;}
+#textelementstopcontent .headings h1{float:left; margin:0px; padding:0px; font-family:Arial; font-size:22px; font-weight:bold; color: #998675; width:190px;}
+#textelementstopcontent .headings h2{float:left; margin:4px 0 0 0; padding:0px; font-family:Arial; font-size:20px; font-weight:bold; color: #998675; width:190px;}
+#textelementstopcontent .headings h3{float:left; margin:4px 0 0 0; padding:0px; font-family:Arial; font-size:19px; font-weight:bold; color: #998675; width:190px;}
+#textelementstopcontent .headings h4{float:left; margin:4px 0 0 0; padding:0px; font-family:Arial; font-size:18px; font-weight:bold; color: #998675; width:190px;}
+#textelementstopcontent .headings h5{float:left; margin:4px 0 0 0; padding:0px; font-family:Arial; font-size:17px; font-weight:bold; color: #998675; width:190px;}
+#textelementstopcontent .headings h6{float:left; margin:4px 0 0 0; padding:0px; font-family:Arial; font-size:16px; font-weight:bold; color: #998675; width:190px;}
+#textelementstopcontent .orderlist{ float:left; width:181px; margin:0px; padding:0px;}
+#textelementstopcontent .orderlist ol{ float:left; width:181px; margin:0px; padding:0px; display:block;}
+#textelementstopcontent .orderlist ol li{ float:left; width:181px; margin:0px; padding:0px; font-family:"Trebuchet MS"; font-size:12px; font-weight:normal; font-style:italic; color: #999999; display:block; line-height:12px;}
+#textelementstopcontent .orderlist ol li.bottomspace{ float:left; padding:0 0 11px 0;}
+#textelementstopcontent .orderlist ol li a{color: #29abe2; text-decoration:none;}
+#textelementstopcontent .orderlist ol li a:hover{color: #29abe2; text-decoration: underline;}
+#textelementstopcontent .orderlist ol li.bottomspace span{ float:left; width:17px; margin:0px; padding:0 0 0 17px; font-family:"Trebuchet MS"; font-size:12px; font-weight:normal; font-style:italic; color: #8cc63f; display:block;}
+#textelementstopcontent .orderlist ol li ol{ float:left; width:168px; margin:0px; padding:0 0 0 13px; display:block;}
+#textelementstopcontent .orderlist ol li ol li{ float:left; width:168px; margin:0px; padding:0 0 11px 0; font-family:"Trebuchet MS"; font-size:12px; font-weight:normal; font-style:italic; color: #b3b3b3; display:block; line-height:12px;}
+#textelementstopcontent .orderlist ol li ol li span{ float:left; width:13px; margin:0px; padding:0 0 0 17px; font-family:"Trebuchet MS"; font-size:12px; font-weight:normal; font-style:italic; color: #b3b3b3; display:block;}
+#textelementstopcontent .unorderlist{ float:left; width:122px; margin:0px; padding:0px;}
+#textelementstopcontent .unorderlist ul{ float:left; width:122px; margin:0px; padding:0px; display:block;}
+#textelementstopcontent .unorderlist ul li{ float:left; width:122px; margin:0px; padding:0px; font-family:"Trebuchet MS"; font-size:12px; font-weight:normal; font-style:italic; color: #999999; display:block; line-height:12px;}
+#textelementstopcontent .unorderlist ul li.bottomspace{ float:left; padding:0 0 11px 0;}
+#textelementstopcontent .unorderlist ul li a{color: #29abe2; text-decoration:none;}
+#textelementstopcontent .unorderlist ul li a:hover{color: #29abe2; text-decoration: underline;}
+#textelementstopcontent .unorderlist ul li.bottomspace span{ float:left; width:17px; margin:0px; padding:0 0 0 17px; font-family:"Trebuchet MS"; font-size:12px; font-weight:normal; font-style:italic; color: #8cc63f; display:block;}
+#textelementstopcontent .unorderlist ul li ul{ float:left; width:108px; margin:0px; padding:0 0 0 14px; display:block;}
+#textelementstopcontent .unorderlist ul li ul li{ float:left; width:108px; margin:0px; padding:0 0 11px 0; font-family:"Trebuchet MS"; font-size:12px; font-weight:normal; font-style:italic; color: #b3b3b3; display:block; line-height:12px;}
+#textelementstopcontent .unorderlist ul li ul li span{ float:left; width:13px; margin:0px; padding:0 0 0 17px; font-family:"Trebuchet MS"; font-size:12px; font-weight:normal; font-style:italic; color: #b3b3b3; display:block;}
+#textelementstopcontent .paragraphcontent{float:left; margin:30px 0 0 0; width:500px; padding:0px;}
+#textelementstopcontent .paragraphcontent p.paragraphsidehead{float:left; margin:0px; width:500px; padding:0px; font-family:Arial; font-size:14px; font-weight:bold; color: #998675;}
+#textelementstopcontent .paragraphcontent p.pragraphsmallcontent{float:left; margin:11px 0 0 0; width:500px; padding:0px; font-family:"Trebuchet MS"; font-size:12px; font-weight: normal; font-style:italic; color: #999999;}
+#textelementstopcontent .paragraphcontent p.readmore{float:left; margin:20px 0 0 0; width:500px; padding:0px; font-family:"Trebuchet MS"; font-size:11px; font-weight: normal; font-style:italic; color: #29abe2;}
+#textelementstopcontent .paragraphcontent p.readmore a{ text-decoration:none; color: #29abe2;}
+#textelementstopcontent .paragraphcontent p.readmore a:hover{ text-decoration:underline; color: #29abe2;}
+/*-------tabledata---------*/
+#tabledata{float:left; margin:0px; padding:0px;width:500px;}
+#tabledata .headings{float:left; margin:0px; padding:9px 0 0 0; width:486px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/headingbg.gif) repeat-y; height:26px;}
+#tabledata .headings .chekbox{float:left; margin:0px; padding:0 0 0 21px; width:60px;}
+#tabledata .headings .title{float:left; margin:0px; padding:0px; width:152px; font-family: Tahoma; font-weight:normal; font-size:11px; color: #998675; line-height:15px;}
+#tabledata .headings .description{float:left; margin:0px; padding:0px; width:128px; font-family: Tahoma; font-weight:normal; font-size:11px; color: #998675; line-height:15px;}
+#tabledata .headings .action{float:left; margin:0px; padding:0px; width:124px; font-family: Tahoma; font-weight:normal; font-size:11px; color: #998675; line-height:15px; text-align:center;}
+#tabledata .content01{float:left; margin:7px 0 0 0; padding:7px 0 0 0; width:486px; background: url(http://demo.templateworld.com/admin-templates/admin-02/images/contentbg.gif) repeat-y; height:23px;}
+#tabledata .content01 .chekbox{float:left; margin:0px; padding:0 0 0 21px; width:60px;}
+#tabledata .content01 .title{float:left; margin:0px; padding:0px; width:152px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675; line-height:15px;}
+#tabledata .content01 .description{float:left; margin:0px; padding:0px; width:128px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675; line-height:15px;}
+#tabledata .content01 .action{float:left; margin:0px; padding:0px; width:124px;}
+#tabledata .content01 .action span.edit{float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/editicon.gif) no-repeat; padding:1px 0 0 23px; margin:0px; width:36px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675;}
+#tabledata .content01 .action span.edit a{ color: #998675; text-decoration:none;}
+#tabledata .content01 .action span.edit a:hover{ color: #998675; text-decoration: underline;}
+#tabledata .content01 .action span.delete{float:left; background: url(http://demo.templateworld.com/admin-templates/admin-02/images/deleteicon.gif) no-repeat; padding:1px 0 0 22px; margin:0px; width:34px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675;}
+#tabledata .content01 .action span.delete a{ color: #998675; text-decoration:none;}
+#tabledata .content01 .action span.delete a:hover{ color: #998675; text-decoration: underline;}
+#tabledata .content02{float:left; margin:7px 0 0 0; padding:7px 0 0 0; width:486px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/headingbg.gif) repeat-y; height:23px;}
+#tabledata .content02 .chekbox{float:left; margin:0px; padding:0 0 0 21px; width:60px;}
+#tabledata .content02 .title{float:left; margin:0px; padding:0px; width:152px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675; line-height:15px;}
+#tabledata .content02 .description{float:left; margin:0px; padding:0px; width:128px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675; line-height:15px;}
+#tabledata .content02 .action{float:left; margin:0px; padding:0px; width:124px;}
+#tabledata .content02 .action span.edit{float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/editicon.gif) no-repeat; padding:1px 0 0 23px; margin:0px; width:36px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675;}
+#tabledata .content02 .action span.edit a{ color: #998675; text-decoration:none;}
+#tabledata .content02 .action span.edit a:hover{ color: #998675; text-decoration: underline;}
+#tabledata .content02 .action span.delete{float:left; background: url(http://demo.templateworld.com/admin-templates/admin-02/images/deleteicon.gif) no-repeat; padding:1px 0 0 22px; margin:0px; width:34px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675;}
+#tabledata .content02 .action span.delete a{ color: #998675; text-decoration:none;}
+#tabledata .content02 .action span.delete a:hover{ color: #998675; text-decoration: underline;}
+#tabledata .contentexpand{float:left; margin:7px 0 0 0; padding:7px 0 0 0; width:486px; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/headingbg.gif) repeat-y; height:113px;}
+#tabledata .contentexpand .chekbox{float:left; margin:0px; padding:0 0 0 21px; width:60px;}
+#tabledata .contentexpand .title{float:left; margin:0px; padding:0px; width:152px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675; line-height:15px;}
+#tabledata .contentexpand .description{float:left; margin:0px; padding:0px; width:128px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675; line-height:15px;}
+#tabledata .contentexpand .action{float:left; margin:0px; padding:0px; width:124px;}
+#tabledata .contentexpand .action span.edit{float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/editicon.gif) no-repeat; padding:1px 0 0 23px; margin:0px; width:36px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675;}
+#tabledata .contentexpand .action span.edit a{ color: #998675; text-decoration:none;}
+#tabledata .contentexpand .action span.edit a:hover{ color: #998675; text-decoration: underline;}
+#tabledata .contentexpand .action span.delete{float:left; background: url(http://demo.templateworld.com/admin-templates/admin-02/images/deleteicon.gif) no-repeat; padding:1px 0 0 22px; margin:0px; width:34px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675;}
+#tabledata .contentexpand .action span.delete a{ color: #998675; text-decoration:none;}
+#tabledata .contentexpand .action span.delete a:hover{ color: #998675; text-decoration: underline;}
+#tabledata .expandcontent{float:left; padding:0 0 0 79px; width:407px; margin:13px 0 0 0;}
+#tabledata .expandcontent label{float:left; width:133px; padding:0px; margin:0px;}
+#tabledata .expandcontent label input{width:124px; border:1px solid #c6c6c6; height:13px; font-family: Tahoma; font-weight:normal; font-size:10px; color: #998675;}
+#tabledata .contentarea{float:left; width:407px; margin:14px 0 0 0; padding:0px;}
+#tabledata .contentarea span.smallcontent{float:left; width:252px; font-family: Tahoma; font-weight:normal; font-size:8px; color: #998675; line-height:13px;}
+#tabledata .contentarea span.savechange{float:left; padding:0 0 0 30px; margin:13px 0 0 0; width:89px;}
+#tabledata .contentarea span.savechange a{width:87px; height:19px; margin:0px; padding:6px 0 0 0; float:left; font-family:"Trebuchet MS"; font-size:9px; color:#534741; line-height:12px; font-weight:bold; text-align:center; text-decoration:none; background: url(http://demo.templateworld.com/admin-templates/admin-02/images/savechangeactive.gif) no-repeat}
+#tabledata .contentarea span.savechange a:hover{width:87px; height:19px; margin:0px; padding:6px 0 0 0; float:left; font-family:"Trebuchet MS"; font-size:9px; color:#534741; line-height:12px; font-weight:bold; text-align:center; text-decoration:none; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/savechangeactive.gif) no-repeat}
+#tabledata .pagenavigation{margin:27px 0 0 0; float:left; width:486px; border-bottom:1px solid #dad6d1; padding:0 0 21px 0; text-align:right; font-family: Arial; font-weight:bold; font-size:12px; color: #666666;}
+#tabledata .pagenavigation span{padding:0 3px 0 0;}
+#tabledata .pagenavigation span a{color: #666666; text-decoration:none;}
+#tabledata .pagenavigation span a:hover{color: #683a1e; text-decoration:none;}
+.headermenu{float:left; width:586px; padding:0px; margin:6px 0 0 0;}
+.headermenu ul{float:left; width:586px; padding:0px; margin:0px; display:block;}
+.headermenu ul li{float:left; padding:0 1px 0 0; margin:0px; display:block; width:116px;}
+.headermenu ul li a{ float:left; background:url(http://demo.templateworld.com/admin-templates/admin-02/images/headermenuacitve.gif) no-repeat; width:116px; height:22px; padding:10px 0 0 0; text-align:center; font-family: "Trebuchet MS"; font-weight:normal; font-size:11px; color: #e6e6e6; text-decoration:none; display:block; line-height:13px;}
+.headermenu ul li a:hover{ float:left; background: url(http://demo.templateworld.com/admin-templates/admin-02/images/headermenuhover.gif) no-repeat; width:116px; height:22px; padding:10px 0 0 0; text-align:center; font-family: "Trebuchet MS"; font-weight:normal; font-size:11px; color: #666666; text-decoration:none; display:block; line-height:13px;}
+.submenu{ float:left; padding:0 0 0 395px; width:550px; font-family: "Trebuchet MS"; font-size:11px; font-weight:normal; color: #666666; margin:11px 0 0 0}
+.submenu a{color: #666666; text-decoration:none;}
+.submenu a:hover{color: #666666; text-decoration: underline;}
+.submenu span{padding:0 8px 0 8px;}
+.submenu1{ float:left; padding:0 0 0 523px; width:414px; font-family: "Trebuchet MS"; font-size:11px; font-weight:normal; color: #666666; margin:11px 0 0 0;}
+.submenu1 a{color: #666666; text-decoration:none;}
+.submenu1 a:hover{color: #666666; text-decoration: underline;}
+.submenu1 span{padding:0 8px 0 8px;}
+.submenu2{ float:left; padding:0 0 0 640px; width:300px; font-family: "Trebuchet MS"; font-size:11px; font-weight:normal; color: #666666; margin:11px 0 0 0;}
+.submenu2 a{color: #666666; text-decoration:none;}
+.submenu2 a:hover{color: #666666; text-decoration: underline;}
+.submenu2 span{padding:0 8px 0 8px;}
+#menu{width:583px; height:75px; margin:0px; padding:0px; float:left}
