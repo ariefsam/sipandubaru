@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chart bgSWF='images/grafik_kms.jpg' baseFontSize='11' canvasBgAlpha='0' numberPrefix='' xAxisName='Umur (bulan)' yAxisName='berat' yAxisMaxValue='30' xAxisMaxValue='60'decimals='1' >
+    <set label='0' value='3' tooltext=' Bagus '/>
+    <set label='1' value='3.4' tooltext=' Bagus '/>
+    <set label='2' value='4' tooltext=' Bagus '/>
+    <set label='3' value='3.7' tooltext=' Bagus '/>
+    <set label='4' value='5' tooltext=' Bagus '/>
+    <set label='5' value='6' tooltext=' Bagus '/>
+    <set label='6' value='' tooltext='  '/>
+    <set label='7' value='' tooltext='  '/>
+    <set label='8' value='' tooltext='  '/>
+    <set label='9' value='' tooltext='  '/>
+    <set label='10' value='' tooltext='  '/>
+    <set label='11' value='' tooltext='  '/>
+    <set label='12' value='' tooltext='  '/>
+    <set label='13' value='' tooltext='  '/>
+    <set label='14' value='' tooltext='  '/>
+    <set label='15' value='' tooltext='  '/>
+    <set label='16' value='' tooltext='  '/>
+    <set label='17' value='' tooltext='  '/>
+    <set label='18' value='' tooltext='  '/>
+    <set label='19' value='' tooltext='  '/>
+    <set label='20' value='' tooltext='  '/>
+    <set label='21' value='' tooltext='  '/>
+    <set label='22' value='' tooltext='  '/>
+    <set label='23' value='' tooltext='  '/>
+    <set label='24' value='' tooltext='  '/>
+    <set label='25' value='' tooltext='  '/>
+    <set label='26' value='' tooltext='  '/>
+    <set label='27' value='' tooltext='  '/>
+    <set label='28' value='' tooltext='  '/>
+    <set label='29' value='' tooltext='  '/>
+    <set label='30' value='' tooltext='  '/>
+    <set label='31' value='' tooltext='  '/>
+    <set label='32' value='' tooltext='  '/>
+    <set label='33' value='' tooltext='  '/>
+    <set label='34' value='' tooltext='  '/>
+    <set label='35' value='' tooltext='  '/>
+    <set label='36' value='' tooltext='  '/>
+</chart>
+
