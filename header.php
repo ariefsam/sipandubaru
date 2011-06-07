@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script language="javascript" src="FusionCharts.js"></script>
-        <title>Beranda</title>
+        <title>SiPandu | <?php echo $title; ?></title>
         <link type="text/css" href="css/layout.css" rel="stylesheet"/>
     </head>
 <body>

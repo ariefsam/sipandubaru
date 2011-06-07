@@ -2,6 +2,7 @@
 require "loginkah.php";
 require 'dbcon.php';
 require 'fungsi.php';
+$title = "Beranda";
 require './header.php';
 $x=15;
 include("FusionCharts.php");

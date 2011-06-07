@@ -2,6 +2,7 @@
 
 require "loginkah.php";
 require 'dbcon.php';
+$title = "Pelayanan";
 require './header.php';
 require 'fungsi.php';
 $i = tanggalan();

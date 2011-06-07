@@ -1,6 +1,7 @@
 <?php
 require "loginkah.php";
 require "dbcon.php";
+$title = "Biodata Anak";
 require './header.php';
 require 'fungsi.php';
 $id = $_GET['id'];
