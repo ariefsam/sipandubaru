@@ -26,8 +26,6 @@ for($a=0; $a<=36; $a++)
 
 }
 
-print_r($arrData);
-
 //while($q = mysql_fetch_array($queri)){
 //      $arr_umur[$i][1] = $q['berat'];
 //      $arr_umur[$i][2] = $i+2.5;

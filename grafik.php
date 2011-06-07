@@ -15,7 +15,7 @@ include 'gr_perkembangan.php';
         <h1>Grafik Perkembangan</h1> <div id="nama_anak">Alfa Nugraha</div>
         Kembali
         <div style='overflow:auto; width:ancho; height:750px; width: 960px;'>
-            <?php echo "hhh" . $strXML;
+            <?php 
                   echo renderChart("chart/Line.swf", "", $strXML, "statusGizi",  1331,700, false, false); ?>
                     </div>
     </div>
