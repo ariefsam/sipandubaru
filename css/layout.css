@@ -57,17 +57,22 @@ ul li{
 }
 
 .tabel{
-    border:0px solid orange;
-    border-collapse:collapse;
+    background: orange;
     font-family:Arial,Helvetica,sans-serif;
     font-size:9pt;
     margin:10px 0;
 }
 
-td{
-    background-color: white;
-	padding: 0px 5px;
+.tabel thead {
+    background: orange;
+
 }
+
+.tabel tbody td {
+    background-color: white;
+    padding: 5px;
+}
+
 .head {
 background-color:#F7F6BE;
 }
@@ -255,7 +260,6 @@ border:0px dotted red;
 
 .tabel td{
     background-color: white;
-    width: 350px;
 }
 
 .head {
