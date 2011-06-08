@@ -65,7 +65,7 @@ $i = tanggalan();
                        </select>
                        <select name="thn">
                             <?php for($i=2004; $i <= 2011; $i++){ ?>
-                            <option value="1"><?php echo $i;?></option>
+                            <option value="<?php echo $i?>"><?php echo $i;?></option>
                             <?php }?>
                         </select>
                   </td>
@@ -83,40 +83,20 @@ $i = tanggalan();
                     <td class="left">Berat Badan Waktu Lahir:</td>
                     <td>
                         <select name="bb_1">
-                           <?php for($i=0; $i <= 3; $i++){ ?>
-                           <option value="1"><?php echo $i;?></option>
-                           <?php }?>
-                        </select>
-                        <select name="bb_2">
-                           <?php for($i=0; $i <= 9; $i++){ ?>
-                           <option value="1"><?php echo $i;?></option>
+                           <?php for($i=0; $i <= 8; $i++){ ?>
+                           <option value="<?php echo $i;?>"><?php echo $i;?></option>
                            <?php }?>
                         </select>
                         <span><b>.</b></span>
                         <select name="bb_2">
                            <?php for($i=0; $i <= 9; $i++){ ?>
-                           <option value="1"><?php echo $i;?></option>
+                           <option value="<?php echo $i;?>"><?php echo $i;?></option>
                            <?php }?>
                         </select>
                         <span>kg</span>
                     </td>
                   </tr>
-                  <tr>
-                    <td class="left">Panjang Badan Waktu Lahir:</td>
-                    <td>
-                        <select name="panjang_1">
-                           <?php for($i=1; $i <= 7; $i++){ ?>
-                           <option value="1"><?php echo $i;?></option>
-                           <?php }?>
-                        </select>
-                        <select name="panjang_2">
-                           <?php for($i=0; $i <= 9; $i++){ ?>
-                           <option value="1"><?php echo $i;?></option>
-                           <?php }?>
-                        </select>
-                        <span>cm</span>
-                   </td>
-                  </tr>
+                  
                 </tbody>
             </table>
             <h2>Data Orang Tua</h2>
@@ -145,30 +125,30 @@ $i = tanggalan();
                   </tr>
                   <tr class="alt">
                       <td class="left">Penghasilan</td>
-                      <td><input type="radio" value="min_500" name="penghasilan_ayah" id="penghasilan_ayah">< Rp 500.000</td>
-                      <td colspan="2"><input type="radio" value="500_1000" name="penghasilan_ayah" id="penghasilan_ayah"> Rp 500.000 - Rp 1.000.000</td>
+                      <td><input type="radio" value="1" name="penghasilan_ayah" id="penghasilan_ayah">< Rp 500.000</td>
+                      <td colspan="2"><input type="radio" value="2" name="penghasilan_ayah" id="penghasilan_ayah"> Rp 500.000 - Rp 1.000.000</td>
                   </tr>
                   <tr class="alt">
                       <td></td>
-                      <td><input type="radio" value="500_1000" name="penghasilan_ayah" id="penghasilan_ayah"> Rp 500.000 - Rp 1.000.000</td>
-                      <td colspan="2"><input type="radio" value="1000_2500" name="penghasilan_ayah" id="penghasilan_ayah"> Rp 1.000.000 - Rp 2.500.000</td>
+                      <td><input type="radio" value="3" name="penghasilan_ayah" id="penghasilan_ayah"> Rp 500.000 - Rp 1.000.000</td>
+                      <td colspan="2"><input type="radio" value="4" name="penghasilan_ayah" id="penghasilan_ayah"> Rp 1.000.000 - Rp 2.500.000</td>
                   </tr>
                   <tr>
                      <td></td>
-                     <td colspan="3"><input type="radio" value="max_2500" name="penghasilan_ayah" id="penghasilan_ayah"> > Rp 2.500.000</td>
+                     <td colspan="3"><input type="radio" value="5" name="penghasilan_ayah" id="penghasilan_ayah"> > Rp 2.500.000</td>
                   </tr>
                   <tr>
                       <td colspan="4"><b>Ibu</b></td>
                   </tr>
                   <tr class="alt">
                       <td class="left">Nama<span id="req_9" class="req">*</span>:</td>
-                      <td><input name="nama_ayah" size="30" maxlength="90" type="text"></td>
+                      <td><input name="nama_ibu" size="30" maxlength="90" type="text"></td>
                       <td>&nbsp; </td>
                       <td>&nbsp; </td>
                   </tr>
                   <tr class="alt">
                     <td class="left">Pekerjaan:</td>
-                    <td><input type="radio" value="PNS" name="pekerjaan_ayah" id="pekerjaan_ibu">PNS</td>
+                    <td><input type="radio" value="PNS" name="pekerjaan_ibu" id="pekerjaan_ibu">PNS</td>
                     <td><input type="radio" value="Wiraswasta" name="pekerjaan_ibu" id="pekerjaan_ibu">Wiraswasta</td>
                     <td><input type="radio" value="PegawaiSwasta" name="pekerjaan_ibu" id="pekerjaan_ibu">Pegawai Swasta</td>
                   </tr>
@@ -180,17 +160,17 @@ $i = tanggalan();
                   </tr>
                   <tr class="alt">
                       <td class="left">Penghasilan</td>
-                      <td><input type="radio" value="min_500" name="penghasilan_ibu" id="penghasilan_ibu">< Rp 500.000</td>
-                      <td colspan="2"><input type="radio" value="500_1000" name="penghasilan_ibu" id="penghasilan_ibu"> Rp 500.000 - Rp 1.000.000</td>
+                      <td><input type="radio" value="1" name="penghasilan_ibu" id="penghasilan_ibu">< Rp 500.000</td>
+                      <td colspan="2"><input type="radio" value="2" name="penghasilan_ibu" id="penghasilan_ibu"> Rp 500.000 - Rp 1.000.000</td>
                   </tr>
                   <tr class="alt">
                       <td></td>
-                      <td><input type="radio" value="500_1000" name="penghasilan_ibu" id="penghasilan"> Rp 500.000 - Rp 1.000.000</td>
-                      <td colspan="2"><input type="radio" value="1000_2500" name="penghasilan_ibu" id="penghasilan"> Rp 1.000.000 - Rp 2.500.000</td>
+                      <td><input type="radio" value="3" name="penghasilan_ibu" id="penghasilan"> Rp 500.000 - Rp 1.000.000</td>
+                      <td colspan="2"><input type="radio" value="4" name="penghasilan_ibu" id="penghasilan"> Rp 1.000.000 - Rp 2.500.000</td>
                   </tr>
                   <tr>
                      <td></td>
-                     <td colspan="3"><input type="radio" value="max_2500" name="penghasilan_ayah" id="penghasilan_ayah"> > Rp 2.500.000</td>
+                     <td colspan="3"><input type="radio" value="5" name="penghasilan_ibu" id="penghasilan_ayah"> > Rp 2.500.000</td>
                   </tr>
                 </tbody>
             </table>
@@ -199,35 +179,35 @@ $i = tanggalan();
                 <tbody>
                   <tr >
                     <td class="left">Jalan <span id="req_9" class="req">*</span>:</td>
-                    <td><input name="jalan" size="25" type="text"></td>
+                    <td><input name="jalan" size="25" type="text" value="<?php echo $bayi['jalan']?>" /></td>
                   </tr>
                   <tr class="alt">
                     <td>RT/RW <span id="req_9" class="req">*</span>:</td>
                     <td>
-                                        <input name="rt" size="2" maxlength="2" type="text">
+                                        <input name="rt" size="2" maxlength="2" type="text" value="<?php echo $bayi['rt']?>" />
                                         <span> / </span>
-                                        <input name="rw" size="2" maxlength="2" type="text">
+                                        <input name="rw" size="2" maxlength="2" type="text" value="<?php echo $bayi['rw']?>" />
                                 </td>
                   </tr>
                   <tr >
                     <td>Kode Pos:</td>
-                    <td><input name="kode_pos" size="6" maxlength="6" type="text"></td>
+                    <td><input name="kode_pos" size="6" maxlength="6" type="text" value="<?php echo $bayi['kode_pos']?>" /></td>
                   </tr>
                   <tr class="alt">
                     <td>Kecamatan:</td>
-                    <td><input name="kecamatan" size="25" type="text"></td>
+                    <td><input name="kecamatan" size="25" type="text" value="<?php echo $bayi['kecamatan']?>" /></td>
                   </tr>
                   <tr >
                     <td>Kelurahan:</td>
-                    <td><input name="desa" size="25" type="text"></td>
+                    <td><input name="desa" size="25" type="text"  value="<?php echo $bayi['desa']?>" /></td>
                   </tr>
                   <tr class="alt">
                     <td>Kabupaten / Kota:</td>
-                    <td><input name="kota" size="25" type="text"></td>
+                    <td><input name="kota" size="25" type="text" value="<?php echo $bayi['kota']?>"></td>
                   </tr>
                           <tr >
                     <td>Propinsi:</td>
-                    <td><input name="propinsi" size="25" type="text"></td>
+                    <td><input name="propinsi" size="25" type="text"  value="<?php echo $bayi['provinsi']?>"></td>
                   </tr>
                   <tr class="alt">
                     <td>No. Telepon:</td>

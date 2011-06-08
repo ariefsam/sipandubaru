@@ -1,0 +1,11 @@
+<8 Juni
+1. Buat Login
+2. Bagusin Login
+3. Buat Grafik Perkembangan
+
+8 Juni
+4. Edit View daftar.php
+5. Ganti database tabel bayi
+6. Edit proses_daftar.php
+7. Bikin edit_biodata.php -> cukup menguras energi coz ga pake input type="text"
+8. Bikin proses_edit_biodata.php

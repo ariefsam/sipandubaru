@@ -13,7 +13,7 @@ $penghasilan_ayah= $_POST['penghasilan_ayah'];
 $nama_ibu        = $_POST['nama_ibu'];
 $pekerjaan_ibu   = $_POST['pekerjaan_ibu'];
 $penghasilan_ibu = $_POST['penghasilan_ibu'];
-$telp            = $_POST['phone'] . $_POST['phone2'];
+$telp            = $_POST['phone'];
 $jalan           = $_POST['jalan'];
 $rt              = $_POST['rt'];
 $rw              = $_POST['rw'];
@@ -22,54 +22,35 @@ $kecamatan       = $_POST['kecamatan'];
 $kota            = $_POST['kota'];
 $propinsi        = $_POST['propinsi'];
 $kode_pos        = $_POST['kode_pos'];
+$id              = $_POST['id'];
 
 
-$queri = "INSERT INTO `sipandu`.`bayi` (
-`id` ,
-`nama` ,
-`tgl_lahir` ,
-`jenis_kelamin` ,
-`berat` ,
-`panjang` ,
-`telp` ,
-`nama_ayah` ,
-`pekerjaan_ayah` ,
-penghasilan_ayah,
-`nama_ibu` ,
-`pekerjaan_ibu` ,
-penghasilan_ibu,
-`jalan` ,
-`rt` ,
-`rw` ,
-`desa` ,
-`kecamatan` ,
-`kota` ,
-`propinsi`,
-kode_pos
-)
-VALUES (
-NULL ,
-'$nama_anak',
-'$tanggal_lahir',
-'$jk',
-'$berat',
-0,
-'$telp',
-'$nama_ayah',
-'$pekerjaan_ayah',
-'$penghasilan_ayah',
-'$nama_ibu',
-'$pekerjaan_ibu',
-'$penghasilan_ibu',
-'$jalan',
-'$rt',
-'$rw',
-'$desa',
-'$kecamatan',
-'$kota',
-'$propinsi',
-'$kode_pos')";
+$queri = "UPDATE `bayi` set
+`nama` = '$nama_anak',
+`tgl_lahir` = '$tanggal_lahir',
+`jenis_kelamin` = '$jk',
+`berat` = '$berat',
+`panjang` = 0,
+`telp` = '$telp',
+`nama_ayah` = '$nama_ayah',
+`pekerjaan_ayah` = '$pekerjaan_ayah',
+penghasilan_ayah = '$penghasilan_ayah',
+`nama_ibu` = '$nama_ibu',
+`pekerjaan_ibu` = '$pekerjaan_ibu',
+penghasilan_ibu = '$penghasilan_ibu',
+`jalan` = '$jalan',
+`rt` = '$rt',
+`rw` = '$rw',
+`desa` = '$desa',
+`kecamatan` = '$kecamatan',
+`kota` = '$kota',
+`propinsi` = '$propinsi',
+kode_pos = '$kode_pos'
+
+WHERE id=$id";
+
+
 //echo "<br />" . $queri;
 $y = mysql_query($queri);
-$x =  mysql_insert_id();
-header("Location: biodata_anak.php?id=$x");
+
+header("Location: biodata_anak.php?id=$id");

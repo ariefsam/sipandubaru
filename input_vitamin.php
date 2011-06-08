@@ -49,12 +49,15 @@ include 'header.php';
         <h1>Catatan Pemberian Vitamin</h1>
                         <p class="meta"></p>
                         <div class="entry">
-                            <table border="1">
-                                <tr class="head">
-                                    <th>Tanggal</th>
-                                    <th>Vitamin</th>
-                                    <th>Aksi</th>
-                                </tr>
+                            <table border="0" class="tabel">
+                                <thead>
+                                    <tr>
+                                        <th>Tanggal</th>
+                                        <th>Vitamin</th>
+                                        <th>Aksi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
                                 <?php
                                 $i = 1;
                                 foreach ($huah as $h) {
@@ -80,6 +83,7 @@ include 'header.php';
                                 </tr>
                                 <?php } ?>
 
+                            </tbody>
 
                                             <tr class="genap">
                                                 <form action="proses_periksa_vitamin.php?id=<?php echo $id ?>" method="post">

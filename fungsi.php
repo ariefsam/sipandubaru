@@ -1,4 +1,32 @@
 <?php
+
+function cek_radio($a,$b){
+    if($a==$b) echo " checked";
+    else echo "";
+}
+
+function cek_option($a,$b){
+    if($a==$b) echo " selected";
+    else echo "";
+}
+
+function pecah_tanggal($date)
+{
+    $pecah = explode("-", $date);
+    $data = array(
+        "tgl" => $pecah[2],
+        "bln" => $pecah[1],
+        "thn" => $pecah[0],
+        "tanggal" => $pecah[2],
+        "bulan" => $pecah[1],
+        "tahun" => $pecah[0],
+        "0" => $pecah[2],
+        "1" => $pecah[1],
+        "2" => $pecah[0],
+    );
+    return $data;
+}
+
 function datediff($tgl1, $tgl2) {
     $tgl1 = strtotime($tgl1);
     $tgl2 = strtotime($tgl2);
